@@ -5,10 +5,10 @@
 ---
 spring: 
   profiles: dev
-    active: 
-    - name: myspringcloud-config-dev
+  application: 
+    name: myspringcloud-config-dev
 ---
 spring: 
   profiles: test
-    active: 
-    - name: myspringcloud-config-test
+  application: 
+    name: myspringcloud-config-test
